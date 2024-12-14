@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+</head>
+<body>
+    <div class="container w-50 text-dark bg-dark-subtle">
+        <h1 class="text-center"> Student Registration Form</h1>
+        <label for="firstName" class="form label">First Name</label>
+        <input type="text" id="firstName" placeholder="Student Name" class="form-control"/>
+        <label for="lastName">Last Name</label>
+        <input type="text" id="LastName" placeholder="Last name" class="form-control">
+        <label for="">Student ID</label>
+        <input type="number" placeholder="Student Id" class="form-control">
+        <label for="email">Email ID</label>
+        <input type="text" id="email id" placeholder="Mail ID" class="form-control">
+        <label for="address">Address</label>
+        <input type="text" placeholder="address" class="form-control">
+        <label for="lastName">Branch</label>
+        <select class="form-select form-select-sm" aria-label="Small select example">
+            <option selected>Select Branch</option>
+            <option value="1">CSE</option>
+            <option value="2">CSD</option>
+            <option value="3">CSM</option>
+            <option value="3">CIC</option>
+            <option value="3">CST</option>
+            <option value="3">IT</option>
+            <option value="3">ECE</option>
+            <option value="3">ECT</option>
+            <option value="3">EEE</option>
+            <option value="3">MECH</option>
+          </select>
+        <label for="contact number">Contact Number</label>
+        <input type="number" id="contact number" placeholder="Mobile Number" class="form-control">
+        <label for="Date">Date of Submission</label>
+        <input type="date" class="form-control">
+        <fieldset>
+            <legend style="font-size: 16px;">Gender</legend>
+            <input type="radio" name="Gender"/>
+            <label for="male">Male</label>
+            <input type="radio" name="Gender"/>
+            <label for="female">Female</label>
+            <input type="radio" name="Gender"/>
+            <label for="others">Others</label>
+        </fieldset>
+        <div class="form-check my-2">
+            <label for="" class="form-check-label">Are you a Student?</label>
+            <input type="checkbox" name="" id="" class="form-check-input" />
+          </div>
+          <div class="d-flex justify-content-center m-4">
+
+          <button class="btn btn-success mx-3">Submit</button>
+          <button class="btn btn-danger">Cancel</button>  
+        </div>      
+    </div>
+</body>
+</html>
